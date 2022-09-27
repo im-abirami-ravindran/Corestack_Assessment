@@ -1,0 +1,26 @@
+2022-09-27 09:20:13 INFO     Source Database Exists
+2022-09-27 09:20:15 INFO     Source Collection Exists
+2022-09-27 09:20:25 INFO     Target Database Exists
+2022-09-27 09:20:33 WARNING  Target Collection doesnt exist,Created user entered Db
+2022-09-27 09:20:33 INFO     All userinputs successfully entered
+2022-09-27 09:20:33 INFO     Time stamp berfore inserting
+2022-09-27 09:26:15 INFO     Time stamp after inserting
+2022-09-27 09:26:15 INFO     Successfully Copied
+2022-09-27 09:50:34 INFO     User connected to Mongo Client Successfully
+2022-09-27 09:50:38 INFO     Source Database Exists
+2022-09-27 09:50:41 INFO     Source Collection Exists
+2022-09-27 09:50:52 INFO     Target Database Exists
+2022-09-27 09:51:01 WARNING  Target Collection doesnt exist,Created user entered Db
+2022-09-27 09:51:01 INFO     All userinputs successfully entered
+2022-09-27 09:51:01 INFO     Time stamp berfore inserting
+2022-09-27 09:51:24 INFO     Time stamp after inserting
+2022-09-27 09:51:24 INFO     Successfully Copied
+2022-09-27 09:51:54 INFO     User connected to Mongo Client Successfully
+2022-09-27 09:51:57 INFO     Source Database Exists
+2022-09-27 09:52:01 INFO     Source Collection Exists
+2022-09-27 09:52:04 INFO     Target Database Exists
+2022-09-27 09:52:14 WARNING  Target Collection doesnt exist,Created user entered Db
+2022-09-27 09:52:14 INFO     All userinputs successfully entered
+2022-09-27 09:52:14 INFO     Time stamp berfore inserting
+2022-09-27 09:52:36 INFO     Time stamp after inserting
+2022-09-27 09:52:36 INFO     Successfully Copied

@@ -1,6 +1,4 @@
 from pymongo import MongoClient
-from datetime import datetime
-import pymongo
 import logging
 
 logging.basicConfig(filename='app.log',
@@ -71,12 +69,13 @@ def get_hosts():
 
             hosts_obj = y.find() #taking all the data from the source collection
             logging.info("Time stamp berfore inserting") #logging the time before starting
-            for x in hosts_obj: # inserting into the target collection
-                b.insert_many(hosts_obj)
-            logging.info("Time stamp after inserting") 
+            for i in hosts_obj: # inserting into the target collection
+               # b.insert_one(i)
+               b.insert_many(hosts_obj)
+            logging.info("Time stamp after inserting") #logging the time after the insert
 
-            
-            logging.info('Successfully Copied') 
+            # print('Out of the loop')
+            logging.info('Successfully Copied') #Log of Completion
         except:
             print("No hosts found") 
         finally:
